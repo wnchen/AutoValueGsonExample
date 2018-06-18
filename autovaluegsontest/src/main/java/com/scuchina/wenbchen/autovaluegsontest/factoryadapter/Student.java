@@ -17,7 +17,6 @@ public abstract class Student {
     @SerializedName("email")
     public abstract String email();
 
-
     public static TypeAdapter<Student> typeAdapter(Gson gson) {
         return new AutoValue_Student.GsonTypeAdapter(gson);
     }

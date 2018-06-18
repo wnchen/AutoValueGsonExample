@@ -10,7 +10,6 @@ dependencies {
 
     compileOnly 'com.ryanharter.auto.value:auto-value-gson:0.8.0'
     apt 'com.ryanharter.auto.value:auto-value-gson:0.8.0'
-    apt 'com.ryanharter.auto.value:auto-value-gson-annotations:0.8.0'
 
     implementation 'com.google.code.gson:gson:2.8.5'
 
